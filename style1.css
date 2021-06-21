@@ -1,0 +1,253 @@
+body{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
+    margin: -1em;/*tirou o espaço que faltava do lado direito*/
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: auto;
+    box-sizing: border-box;
+}#main{
+    height: 60em;
+}#main .rodape{
+    height: 20em;
+}
+/*menu*/
+.menu{
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
+    text-align: center;
+    color: white;
+    padding: .5em;
+    
+}.menu ul{
+    max-width: 100%;
+    list-style: none;
+    display: inline;
+}.menu ul li{
+    display: inline;
+    border-right: solid white;
+}.menu ul li a{
+    color: white;
+    padding: 2em;
+    text-decoration: none;
+    display: inline-block;
+    transition: background .4s;
+}.menu ul li a:hover{
+    color: black;
+}
+/*dentro da animação*/
+.fundo_animado{position: relative;}
+._sobre_{
+    background: linear-gradient(68deg, rgba(119, 118, 118, 0) 20%, rgba(43, 138, 221, 0) 69%);
+    color: white;
+    width: 17em;
+    padding-left: 10em;
+    border-radius: 0px 15px;
+    margin: .1em;
+    position: relative;
+    top: -26em;
+}._sobre_titulo{
+    background: linear-gradient(68deg, rgb(119, 118, 118) 20%, rgb(43, 138, 221) 69%);
+    border-radius: 0px 15px;
+    
+}
+/*dentro da animação*/
+._foto_{
+    background: linear-gradient(68deg, rgba(119, 118, 118, 0) 20%, rgba(43, 138, 221, 0) 69%);
+    color: white;
+    float: left;
+    padding-right: 4em;
+    left: 40em;
+    position: relative;
+    width: 32em;
+    top: -37em;
+    border-top: 3px solid rgb(43, 138, 221);
+    border-bottom: 3px solid rgb(43, 138, 221);    
+}._foto_f{
+    float: left;
+    margin: 1em;
+}
+/*dentro da animação as bolas*/
+.habilidade{
+    background: linear-gradient(68deg, rgb(119, 118, 118) 20%, rgba(43, 138, 221, 0.979) 69%);
+    border-radius: 0px 15px;
+    width: 17em;
+    margin: 16em;
+    color: white;
+    margin-top: -27em;
+    position: relative;
+    left: -5.9em;
+}
+/*skill 01*/
+.skill1{
+    width: 100px;
+    height: 100px;
+    margin: 16em;
+    background: linear-gradient(68deg, rgba(24,24,24,1) 20%, rgba(0,103,191,1) 69%);
+    border-radius: 50%;
+    bottom: 15em;
+    position: relative;
+}.skill1 b{
+    position: relative;
+    left: 40px;
+    bottom: -2.7em;
+    color: black;
+}.skill1 b:hover{
+    color: black;
+}.html{
+    position: relative;
+    left: 1.8em;
+    color: white;
+    bottom: 31em;/*altura nome html em baixo da bola*/
+    margin: 16em;
+}
+/*skill02*/
+.skill2{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(68deg, rgba(24,24,24,1) 30%, rgba(0,103,191,1) 69%);
+    border-radius: 50%;
+    position: relative;
+    left: 25em;
+    bottom: 54.5em;
+}.skill2 b{
+    position: relative;
+    left: 40px;
+    top: 40px;
+    color: black;
+}.css{
+    position: relative;
+    left: 27em;
+    bottom: 120px;
+    color: white;
+    top: -55.5em;
+
+}
+/*skill 03*/
+.skill3{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(68deg, rgba(24,24,24,1) 20%, rgba(0,103,191,1) 69%);
+    border-radius: 50%;    
+    position: relative;
+    left: 34em;
+    bottom: 64em;
+}.skill3 b{
+    position: relative;
+    left: 40px;
+    top: 40px;
+    bottom: 28px;
+    color: black;
+}.js{
+    position: relative;
+    left: 34.7em;
+    bottom: 240px;
+    color: white;
+    top: -65em;
+
+}
+/*skill 04*/
+.skill4{
+    width: 100px;
+    height: 100px;
+    /*border-right: 40px solid blue;background: yellow;*/
+    background: linear-gradient(68deg, rgba(24,24,24,1) 40%, rgba(0,103,191,1) 69%);
+    border-radius: 50%;    
+    position: relative;
+    left: 43em;
+    bottom: 73.4em;
+}.skill4 b{
+    position: relative;
+    left: 40px;
+    bottom: 28px;
+    top: 40px;
+    color: black;
+}.py{
+    position: relative;
+    left: 44.5em;
+    bottom: 73.5em;
+    color: white;
+    margin: 3px;
+
+}
+/*skill 05*/
+.skill5{
+    width: 100px;
+    height: 100px;
+    /*border-right: 35px solid blue;background: yellow;*/
+    background: linear-gradient(68deg, rgba(24,24,24,1) 35%, rgba(0,103,191,1) 69%);
+    border-radius: 50%;    
+    position: relative;
+    left: 52em;
+    bottom: 81em;
+}.skill5 b{
+    position: relative;
+    left: 40px;
+    bottom: 28px;
+    top: 40px;
+    color: black;
+}.git{
+    position: relative;
+    left: 53.6em;
+    bottom: 82em;
+    color: white;
+}
+/*sobre mim*/
+.menu-sobre-mim{
+    width: 32em;
+    height: 11em;
+    border: rgb(66, 133, 192) 1px solid;
+    border-radius: 5px;
+    background: rgb(66, 133, 192);
+    left: 10em;
+    top: -81.4em;
+    position: relative;
+}.menu-habilidades{
+    width: 32em;
+    height: 11em;
+    border: rgb(66, 133, 192) 1px solid;
+    border-radius: 5px;
+    background: rgb(66, 133, 192);
+    position: relative;
+    left: 45em;
+    top: -92.5em;
+}.menu-educacao{
+    width: 32em;
+    height: 11em;
+    border: rgb(66, 133, 192) 1px solid;
+    border-radius: 5px;
+    background: rgb(66, 133, 192);
+    left: 10em;
+    top: -90em;
+    position: relative;
+}.menu-educacao p{
+    padding: 1em;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}.menu-cursos{
+    width: 32em;
+    height: 11em;
+    border: rgb(66, 133, 192) 1px solid;
+    border-radius: 5px;
+    background: rgb(66, 133, 192);
+    position: relative;
+    left: 35em;
+    top: -9.5em;
+}.menu-cursos ul{
+    list-style: none;
+    text-decoration: none;
+}
+/*RODA PÉ*/
+.rodape{
+    height: -80em;
+    text-align: center;
+    margin-top: 40em;
+    position: relative;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
+    padding-top: 2em;
+    
+}.rodape p b{
+    position: relative;
+    top: 1.8em;
+    padding: 1.5em;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
+ 
+    
+}
