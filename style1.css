@@ -2,7 +2,7 @@ body{
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
     margin: -1em;/*tirou o espaço que faltava do lado direito*/
     font-family: Arial, Helvetica, sans-serif;
-    max-height: auto;
+    /*max-height: auto;*/
     box-sizing: border-box;
 }#main{
     height: 60em;
@@ -17,7 +17,7 @@ body{
     padding: .5em;
     
 }.menu ul{
-    max-width: 100%;
+    /*max-width: 100%;*/
     list-style: none;
     display: inline;
 }.menu ul li{
@@ -236,12 +236,15 @@ body{
 }
 /*RODA PÉ*/
 .rodape{
-    height: -80em;
+    height: -8em;
     text-align: center;
-    margin-top: 40em;
+    margin-top: 4em;
     position: relative;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
     padding-top: 2em;
+    bottom: -10em;
+    top: -10em;
+    margin-bottom:30em;
     
 }.rodape p b{
     position: relative;
