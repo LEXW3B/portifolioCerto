@@ -1,13 +1,26 @@
+html{
+    height: 65em; 
+    border: 1px solid greenyellow;
+      
+
+}
 body{
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
-    margin: -1em;/*tirou o espaço que faltava do lado direito*/
+    height: fit-content;
+    height: 100%;
+    margin:auto;
+    margin: auto;/*tirou o espaço que faltava do lado direito*/
     font-family: Arial, Helvetica, sans-serif;
-    /*max-height: auto;*/
-    box-sizing: border-box;
-}#main{
-    height: 60em;
-}#main .rodape{
-    height: 20em;
+    
+    border: 1px solid white;
+    
+}
+#main{
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+    position: relative;
+    border: 3px solid red;
 }
 /*menu*/
 .menu{
@@ -16,8 +29,9 @@ body{
     color: white;
     padding: .5em;
     
+    
 }.menu ul{
-    /*max-width: 100%;*/
+    
     list-style: none;
     display: inline;
 }.menu ul li{
@@ -192,30 +206,34 @@ body{
 /*sobre mim*/
 .menu-sobre-mim{
     width: 32em;
-    height: 11em;
+    height: -11em;
     border: rgb(66, 133, 192) 1px solid;
     border-radius: 5px;
     background: rgb(66, 133, 192);
     left: 10em;
-    top: -81.4em;
+    top: 0em;
     position: relative;
 }.menu-habilidades{
     width: 32em;
-    height: 11em;
+    height: 10.3em;
     border: rgb(66, 133, 192) 1px solid;
     border-radius: 5px;
     background: rgb(66, 133, 192);
     position: relative;
-    left: 45em;
-    top: -92.5em;
-}.menu-educacao{
+    left: 43.5em;
+    top: -10.5em;
+}.menu-habilidades p{
+    position: relative;
+    top: -11em;
+}
+.menu-educacao{
     width: 32em;
     height: 11em;
     border: rgb(66, 133, 192) 1px solid;
     border-radius: 5px;
     background: rgb(66, 133, 192);
     left: 10em;
-    top: -90em;
+    top: -9em;
     position: relative;
 }.menu-educacao p{
     padding: 1em;
@@ -228,29 +246,33 @@ body{
     border-radius: 5px;
     background: rgb(66, 133, 192);
     position: relative;
-    left: 35em;
-    top: -9.5em;
+    left: 33.5em;
+    top: -12.2em;/*AKIIIIIIIIIIIIIIIIIIIIIIIII*/
 }.menu-cursos ul{
     list-style: none;
     text-decoration: none;
+    
+}
+#main-article{
+    margin-top: -82em;
+    /*border: 1px solid red;
+    background: red;*/
+    position: relative;
 }
 /*RODA PÉ*/
 .rodape{
-    height: -8em;
     text-align: center;
     margin-top: 4em;
     position: relative;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
     padding-top: 2em;
-    bottom: -10em;
+    bottom: -0em;
     top: -10em;
-    margin-bottom:30em;
+    margin-bottom:0em;
     
 }.rodape p b{
     position: relative;
-    top: 1.8em;
+    top: -3.5em;
     padding: 1.5em;
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
- 
-    
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);    
 }
