@@ -3,10 +3,10 @@ html{
     border: 1px solid greenyellow;     
 }
 body{
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(45,95,138,1) 69%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%,  rgba(45,95,138,1) 69%);
     height: 100%;
+    width: 100%;
     margin:auto;
-    margin: auto;/*tirou o espaço que faltava do lado direito*/
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid white;
 }
